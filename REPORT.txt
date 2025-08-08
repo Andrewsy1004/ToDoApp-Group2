@@ -1,0 +1,64 @@
+# Informe del Grupo 2
+
+Integrantes:
+- estudiante1: Andrés Felipe Sosa Yepes
+- estudiante2: Danellys Paola Iriarte Martínez
+- estudiante3: Ana Milena Maury Palacios
+
+
+1. Pasos realizados 
+- Se creó el repositorio ToDoApp-Group2 en GitHub con el archivo README.md y se configuró el proyecto en la rama main.
+- Cada integrante creó su propia rama (estudiante1, estudiante2, estudiante3) y trabajó de forma independiente.
+- Se realizaron modificaciones en task_model.py, main.py y README.md, según la rama.
+- Se creó la rama group-2 desde main para integrar los aportes.
+- Se fusionaron las ramas sin conflictos, excepto estudiante3, que generó un conflicto en task_model.py y main.py; este fue resuelto  
+  unificando los cambios.
+- Se subieron los cambios y se hizo un Pull Request desde group-2 hacia main, el cual fue aprobado.
+- Finalmente, se eliminaron todas las ramas individuales y de integración.
+
+
+2. Comandos Git utilizados 
+- git clone: Clonar el repositorio.
+- git checkout -b: Crear nueva rama.
+- git add / git commit: Preparar y guardar cambios.
+- git push / git pull: Subir o traer cambios del repositorio remoto.
+- git fetch / git merge: Actualizar y unir ramas.
+- git branch -a: Ver ramas locales y remotas.
+- git push --delete: Eliminar rama remota.
+- git log --oneline --graph --all: Ver historial de commits 
+
+
+3. Conflictos 
+- Se presentó un conflicto en el archivo task_model.py relacionado con varios métodos, entre ellos: is_done, remove_task, 
+  set_done, get_task_name, is_completed, delete_task y mark_as_complete.
+- La solución consistió en conservar y combinar los aportes de ambas ramas, según lo indicado en el documento.
+
+
+4. Contribuciones 
+- Estudiante 1: Configuró el proyecto inicial, trabajó en su rama, resolvió conflictos, gestionó funciones principales y 
+                realizó el Pull Request final.
+- Estudiante 2: Desarrolló en su rama, subió sus cambios, redactó el archivo REPORT.txt y colaboró en la versión manuscrita 
+                y la revisión del Pull Request.
+- Estudiante 3: Trabajó en su rama, subió sus funcionalidades y colaboró en la versión manuscrita del informe
+
+
+5. Reflexiones 
+ Aprendimos a usar Git de forma colaborativa, aprovechando las ramas para trabajar sin interferencias. 
+ Comprendimos cómo resolver conflictos mediante comunicación efectiva y valoramos los Pull Requests como 
+ herramienta clave para validar y evitar errores antes de fusionar cambios.
+
+
+6. Preguntas de reflexión 
+- ¿Cómo coordinaron el trabajo en equipo para evitar conflictos innecesarios?  
+   Se asignaron tareas y se trabajó en ramas separadas para evitar conflictos
+
+- ¿Qué aprendieron sobre la resolución de conflictos en Git?  
+  Aprendimos a identificar y resolver los conflictos de manera efectiva, comprendiendo la importancia de la 
+  comunicación en equipo para entender su origen y solucionarlos adecuadamente.
+
+- ¿Por qué es importante usar Pull Requests en proyectos colaborativos?  
+  Porque permiten revisar, comentar y validar los cambios antes de integrarlos, asegurando mayor control y calidad del código final.
+
+- ¿Cómo podría mejorarse el flujo de trabajo con herramientas como CI/CD?  
+  El uso de herramientas CI/CD (Integración y Entrega Continua). Permiten automatizar pruebas, detectar errores 
+  tempranamente y mantener la calidad del proyecto.
